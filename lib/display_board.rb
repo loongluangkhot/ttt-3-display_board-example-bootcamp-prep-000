@@ -2,8 +2,9 @@
 def display_board
   cell = " " * 3
   demarcation_line = "-" * 11
-  cell_line = 
-  puts "#{cell}|#{cell}|#{cell}"
+  cell_line = "#{cell}|#{cell}|#{cell}"
+  board = "#{cell_line}\n#{demarcation_line}\n"
+  puts 
   puts "#{line}"
   puts "#{cell}|#{cell}|#{cell}"
   puts "#{line}"
